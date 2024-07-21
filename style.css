@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #737373;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+}
+span{
+    font-size: 2rem;
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.name{
+    display: inline;
+    font-size: 2rem;
+    color: rgb(70, 60, 60);
+}
+.home{
+    display: flex;
+    height: 95vh;
+}
+.left,.right{
+    flex-basis: 50%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 80px;
+}
+.left h4{
+    margin-top: 10px;
+    text-align: justify;
+    font-weight: lighter;
+}
+.left button{
+    height: 35px;
+    width: 110px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: rgb(162, 108, 108);
+}
+.left button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.left button:hover{
+    background-color: red;
+    /* color: blue; */
+}
+.right img{
+    height: 90vh;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 50px 5px 50px;
+    padding: 10px 50px 5px 50px;
+    height: 95vh;
+}
+.a{
+    font-size: 3rem;
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 5px 10px 5px;
+}
+.sp-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+}
+.skill{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: gray;
+    font-size: medium;
+}
+ul{
+    list-style-position: inside;
+}
+.project{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: gray;
+    font-size: medium;
+}
+.b{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: teal;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 50px 5px 50px;
+    padding: 10px 50px 5px 50px;
+    height: 95vh;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 50px 5px 50px;
+    padding: 10px 50px 5px 50px;
+    height: 95vh;
+}
+.contact h5{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.pera-container{
+    /* flex-basis: 80%; */
+    width: 100%;
+}
+.pera-container p{
+    text-align: justify;
+    margin: 10px 0 5px 0;
+    font-size: medium;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+}
+.pro-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 250px;
+    padding: 10px;
+    text-align: justify;
+}
+.pro a{
+    text-decoration: none;
+    color: black;
+}
+.pro a:hover{
+    text-decoration-line: underline;
+    color: blueviolet;
+}
+.project-container p{
+    margin-top: 10px;
+}
+.contact-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-box a{
+    text-decoration: none;
+    font-size: large;
+}
+.contact-box a:hover{
+    font-size: larger;
+}
+.ctext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ctext div{
+    margin: 10px;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+nav li a:hover{
+    color: white;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
